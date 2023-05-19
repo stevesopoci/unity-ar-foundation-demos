@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FaceFilter
+  m_Shader: {fileID: 4800000, guid: 1099470e7d32e40cba600622d5062acc, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 07eab95426095465da3460972ff4e4f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceFilterTex:
+        m_Texture: {fileID: 2800000, guid: d089c0a3cf559446db440fb32f42156f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FilterTex:
+        m_Texture: {fileID: 2800000, guid: d089c0a3cf559446db440fb32f42156f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MandalaTex:
+        m_Texture: {fileID: 2800000, guid: 4e084b850f1a0df488e5d099a06476de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VisualTex:
+        m_Texture: {fileID: 2800000, guid: ec41f64649a954f709144d6c8e4ac9d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _Darken: 0.2
+    - _Desaturate: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Gamma: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Lighten: 1
+    - _MandalaLayers: 10
+    - _MandalaRotationShift: 0
+    - _MandalaScaleShift: 0
+    - _MaskAlpha: 1
+    - _Metallic: 0.5
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RainRipple_BumpIntensity: 1
+    - _RainRipple_Scale: 1
+    - _RainRipple_SpecularIntensity: 1
+    - _RainRipple_WaveIntensity: 31
+    - _RainRipple_WaveSize: 1
+    - _RainRipple_WaveSpeed: 0.3
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UseDeformPlane: 0
+    - _UseMagicAlpha: 0
+    - _UseRipplePlane: 0
+    - _VisualAlpha: 1
+    - _VisualLayers: 0
+    - _VisualRotationShift: 0
+    - _VisualScaleShift: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorMultiplier: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FaceFilterTexST: {r: 1, g: 1, b: 0, a: 0}
+    - _FilterTexST: {r: 1, g: 1, b: 0, a: 0}
+    - _MandalaTexST: {r: 1, g: 1, b: 0, a: 0}
+    - _VisualTexST: {r: 1, g: 2, b: 0, a: 0}
+    - _WaveA: {r: 1, g: 0.5, b: 0.5, a: 30}
+    - _WaveB: {r: 1, g: 1, b: 0.25, a: 50}
+    - _WaveC: {r: 1, g: 1.5, b: 0.15, a: 10}
+  m_BuildTextureStacks: []
