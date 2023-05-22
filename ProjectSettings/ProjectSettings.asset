@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: stevesopoci
+  companyName: StretchedReality
   productName: UnityARFoundationDemos
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -155,9 +155,9 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.ARFoundationFaceTracking
-    Standalone: com.stevesopoci.UnityARFoundationDemos
-    iPhone: com.stevesopoci.UnityARFoundationDemos
+    Android: com.StretchedReality.UnityARFoundationDemos
+    Standalone: com.StretchedReality.UnityARFoundationDemos
+    iPhone: com.StretchedReality.UnityARFoundationDemos
   buildNumber:
     Standalone: 0
     iPhone: 0

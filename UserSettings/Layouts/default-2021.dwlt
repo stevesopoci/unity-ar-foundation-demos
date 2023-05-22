@@ -8,30 +8,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: 1280
-    y: 53
-    width: 640
-    height: 601
-  m_ShowMode: 0
-  m_Title: Build Settings
-  m_RootView: {fileID: 4}
-  m_MinSize: {x: 640, y: 601}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -41,64 +17,14 @@ MonoBehaviour:
     x: 0
     y: 53
     width: 1920
-    height: 935
+    height: 932
   m_ShowMode: 4
-  m_Title: Hierarchy
-  m_RootView: {fileID: 5}
+  m_Title: Project
+  m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: BuildPlayerWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 640
-    height: 601
-  m_MinSize: {x: 640, y: 601}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 640
-    height: 601
-  m_MinSize: {x: 640, y: 601}
-  m_MaxSize: {x: 4000, y: 4021}
-  vertical: 0
-  controlID: 42
---- !u!114 &5
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,22 +37,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
-  - {fileID: 8}
-  - {fileID: 7}
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1920
-    height: 935
+    height: 932
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &6
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &7
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,12 +90,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 915
+    y: 912
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &8
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -182,19 +108,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 14}
+  - {fileID: 6}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
-    height: 885
+    height: 882
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 347
---- !u!114 &9
+  controlID: 90
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,19 +133,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 7}
   - {fileID: 10}
-  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1466
-    height: 885
+    height: 882
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 348
---- !u!114 &10
+  controlID: 91
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -232,19 +158,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 11}
-  - {fileID: 12}
+  - {fileID: 8}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1466
-    height: 521
+    height: 519
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 349
---- !u!114 &11
+  controlID: 92
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -262,15 +188,15 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 358
-    height: 521
+    height: 519
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &12
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -288,16 +214,16 @@ MonoBehaviour:
     x: 358
     y: 0
     width: 1108
-    height: 521
+    height: 519
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 18}
+  - {fileID: 14}
+  - {fileID: 15}
   m_Selected: 1
   m_LastSelected: 0
---- !u!114 &13
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,18 +239,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 521
+    y: 519
     width: 1466
-    height: 364
+    height: 363
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 19}
-  - {fileID: 20}
+  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &14
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -334,7 +260,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -342,15 +268,16 @@ MonoBehaviour:
     x: 1466
     y: 0
     width: 454
-    height: 885
+    height: 882
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 18}
+  - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &15
+  m_LastSelected: 1
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -359,48 +286,2743 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12043, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 640, y: 580}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Build Settings
+    m_Text: GitHub
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1280
-    y: 53
-    width: 640
-    height: 580
+    x: 1466
+    y: 83
+    width: 453
+    height: 861
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
---- !u!114 &16
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 0
+  changeTab: 3
+  activeTab: 3
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2023-05-19T16:19:32.003-05:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 1
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2023-05-19T16:20:44.058-05:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2023-05-19T16:20:44.051-05:00
+      cacheType: 1
+    currentBranch:
+      name: master
+      tracking: 
+    currentRemote:
+      name: origin
+      url: https://github.com/stevesopoci/unity-ar-foundation-demos.git
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: master
+      tracking: 
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: '[master]'
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys:
+        - 00000000000000001000000000000000
+        - a1e96c09c6a9d43b18c1886b7a21f630
+        - 6cb11b39fe1254f19a7e79e438dd755e
+        - 31b6b7011f2e24c769db1a8aacad3176
+        - 1099470e7d32e40cba600622d5062acc
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos
+          label: _UnityARFoundationDemos
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders
+          label: Shaders
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality
+          label: StretchedReality
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+          label: FaceFilter.shader
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+            fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+            projectPath: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+      folders:
+        keys:
+        - Assets
+        - Assets/_UnityARFoundationDemos
+        - Assets/_UnityARFoundationDemos/Shaders
+        - Assets/_UnityARFoundationDemos/Shaders/StretchedReality
+        - Assets/_UnityARFoundationDemos/Shaders/StretechReality
+        - UserSettings
+        - UserSettings/Layouts
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos
+          label: _UnityARFoundationDemos
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders
+          label: Shaders
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality
+          label: StretchedReality
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality
+          label: StretechReality
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings/Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos
+        label: _UnityARFoundationDemos
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Shaders
+        label: Shaders
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality.meta
+        label: StretchedReality.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretchedReality.meta
+          projectPath: Assets/_UnityARFoundationDemos/Shaders/StretchedReality.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality
+        label: StretchedReality
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+        label: FaceFilter.shader
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+          projectPath: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader.meta
+        label: FaceFilter.shader.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader.meta
+          projectPath: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+        label: StretechReality.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+          projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality
+        label: StretechReality
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+        label: FaceFilter.shader
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+          projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+        label: FaceFilter.shader.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+          projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings/Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries:
+    - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality.meta
+      fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretchedReality.meta
+      projectPath: Assets/_UnityARFoundationDemos/Shaders/StretchedReality.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+      fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+      projectPath: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader.meta
+      fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader.meta
+      projectPath: Assets/_UnityARFoundationDemos/Shaders/StretchedReality/FaceFilter.shader.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+      fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+      projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+      fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+      projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+      fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+      projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: UserSettings/Layouts/default-2021.dwlt
+      fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Layouts/default-2021.dwlt
+      projectPath: UserSettings/Layouts/default-2021.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 7 changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2023-05-22T11:51:36.015-05:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2023-05-22T12:12:42.573-05:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 2023-05-22T11:51:36.451-05:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: 6c7fa166af1d0e63dbb27eefd539b72454aeaaa3
+      mergeA: 
+      mergeB: 
+      authorName: Steve Sopoci
+      authorEmail: srsopoci@gmail.com
+      commitEmail: srsopoci@gmail.com
+      commitName: Steve Sopoci
+      summary: Initial commit
+      description: 
+      timeString: 2023-05-19T16:20:39.000-05:00
+      commitTimeString: 2023-05-19T16:20:39.000-05:00
+      changes:
+      - path: .DS_Store
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.DS_Store
+        projectPath: .DS_Store
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .vscode/settings.json
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.vscode/settings.json
+        projectPath: .vscode/settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .vsconfig
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.vsconfig
+        projectPath: .vsconfig
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/.DS_Store
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/.DS_Store
+        projectPath: Assets/.DS_Store
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins.meta
+        projectPath: Assets/Plugins.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub.meta
+        projectPath: Assets/Plugins/GitHub.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor.meta
+        projectPath: Assets/Plugins/GitHub/Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/System.Threading.dll
+        projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/credits.txt
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/credits.txt
+        projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/credits.txt.meta
+        projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/eula.txt
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/eula.txt
+        projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/eula.txt.meta
+        projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/libsfw.bundle
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.so
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/libsfw.so
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/sfw.net.dll
+        projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR.meta
+        projectPath: Assets/XR.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Loaders.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders.meta
+        projectPath: Assets/XR/Loaders.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Loaders/AR Core Loader.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders/AR
+          Core Loader.asset
+        projectPath: Assets/XR/Loaders/AR Core Loader.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Loaders/AR Core Loader.asset.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders/AR
+          Core Loader.asset.meta
+        projectPath: Assets/XR/Loaders/AR Core Loader.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Loaders/AR Kit Loader.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders/AR
+          Kit Loader.asset
+        projectPath: Assets/XR/Loaders/AR Kit Loader.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Loaders/AR Kit Loader.asset.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders/AR
+          Kit Loader.asset.meta
+        projectPath: Assets/XR/Loaders/AR Kit Loader.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Settings.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings.meta
+        projectPath: Assets/XR/Settings.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Settings/AR Core Settings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings/AR
+          Core Settings.asset
+        projectPath: Assets/XR/Settings/AR Core Settings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Settings/AR Core Settings.asset.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings/AR
+          Core Settings.asset.meta
+        projectPath: Assets/XR/Settings/AR Core Settings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Settings/AR Kit Settings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings/AR
+          Kit Settings.asset
+        projectPath: Assets/XR/Settings/AR Kit Settings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/Settings/AR Kit Settings.asset.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings/AR
+          Kit Settings.asset.meta
+        projectPath: Assets/XR/Settings/AR Kit Settings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/XRGeneralSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/XRGeneralSettings.asset
+        projectPath: Assets/XR/XRGeneralSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/XR/XRGeneralSettings.asset.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/XRGeneralSettings.asset.meta
+        projectPath: Assets/XR/XRGeneralSettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos.meta
+        projectPath: Assets/_UnityARFoundationDemos.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/.DS_Store
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/.DS_Store
+        projectPath: Assets/_UnityARFoundationDemos/.DS_Store
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Materials.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Materials.meta
+        projectPath: Assets/_UnityARFoundationDemos/Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat
+        projectPath: Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat.meta
+        projectPath: Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Meshes.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Meshes.meta
+        projectPath: Assets/_UnityARFoundationDemos/Meshes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset
+        projectPath: Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset.meta
+        projectPath: Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Prefabs.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs.meta
+        projectPath: Assets/_UnityARFoundationDemos/Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab
+        projectPath: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab.meta
+        projectPath: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab
+        projectPath: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab.meta
+        projectPath: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources.meta
+        projectPath: Assets/_UnityARFoundationDemos/Resources.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources/.DS_Store
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/.DS_Store
+        projectPath: Assets/_UnityARFoundationDemos/Resources/.DS_Store
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures.meta
+        projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg
+        projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg.meta
+        projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg
+        projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg.meta
+        projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg
+        projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg.meta
+        projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Resources/TestTextures.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/TestTextures.meta
+        projectPath: Assets/_UnityARFoundationDemos/Resources/TestTextures.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scenes.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scenes.meta
+        projectPath: Assets/_UnityARFoundationDemos/Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity
+        projectPath: Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity.meta
+        projectPath: Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts.meta
+        projectPath: Assets/_UnityARFoundationDemos/Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality.meta
+        projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs
+        projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs.meta
+        projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs
+        projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs.meta
+        projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs
+        projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs.meta
+        projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs
+        projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs.meta
+        projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Shaders.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders.meta
+        projectPath: Assets/_UnityARFoundationDemos/Shaders.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+        projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+        projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+        projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages/manifest.json
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Packages/manifest.json
+        projectPath: Packages/manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages/packages-lock.json
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Packages/packages-lock.json
+        projectPath: Packages/packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/AudioManager.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/AudioManager.asset
+        projectPath: ProjectSettings/AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ClusterInputManager.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/ClusterInputManager.asset
+        projectPath: ProjectSettings/ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/DynamicsManager.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/DynamicsManager.asset
+        projectPath: ProjectSettings/DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/EditorBuildSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/EditorBuildSettings.asset
+        projectPath: ProjectSettings/EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/EditorSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/EditorSettings.asset
+        projectPath: ProjectSettings/EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/GraphicsSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/GraphicsSettings.asset
+        projectPath: ProjectSettings/GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/InputManager.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/InputManager.asset
+        projectPath: ProjectSettings/InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/MemorySettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/MemorySettings.asset
+        projectPath: ProjectSettings/MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/NavMeshAreas.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/NavMeshAreas.asset
+        projectPath: ProjectSettings/NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/PackageManagerSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/PackageManagerSettings.asset
+        projectPath: ProjectSettings/PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        projectPath: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/Physics2DSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/Physics2DSettings.asset
+        projectPath: ProjectSettings/Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/PresetManager.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/PresetManager.asset
+        projectPath: ProjectSettings/PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ProjectSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/ProjectSettings.asset
+        projectPath: ProjectSettings/ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ProjectVersion.txt
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/ProjectVersion.txt
+        projectPath: ProjectSettings/ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/QualitySettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/QualitySettings.asset
+        projectPath: ProjectSettings/QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/SceneTemplateSettings.json
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/SceneTemplateSettings.json
+        projectPath: ProjectSettings/SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TagManager.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/TagManager.asset
+        projectPath: ProjectSettings/TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TimeManager.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/TimeManager.asset
+        projectPath: ProjectSettings/TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TimelineSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/TimelineSettings.asset
+        projectPath: ProjectSettings/TimelineSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/UnityConnectSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/UnityConnectSettings.asset
+        projectPath: ProjectSettings/UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/VFXManager.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/VFXManager.asset
+        projectPath: ProjectSettings/VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/VersionControlSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/VersionControlSettings.asset
+        projectPath: ProjectSettings/VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/XRPackageSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/XRPackageSettings.asset
+        projectPath: ProjectSettings/XRPackageSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/XRSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/XRSettings.asset
+        projectPath: ProjectSettings/XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/boot.config
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/boot.config
+        projectPath: ProjectSettings/boot.config
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/EditorUserSettings.asset
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/EditorUserSettings.asset
+        projectPath: UserSettings/EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Layouts/default-2021.dwlt
+        projectPath: UserSettings/Layouts/default-2021.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Search.index
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Search.index
+        projectPath: UserSettings/Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Search.settings
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Search.settings
+        projectPath: UserSettings/Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 9c1e724ecc1cb01a548e0ce5d001794eedfd1a47
+      mergeA: 
+      mergeB: 
+      authorName: Steve Sopoci
+      authorEmail: srsopoci@gmail.com
+      commitEmail: srsopoci@gmail.com
+      commitName: Steve Sopoci
+      summary: Initial commit
+      description: 
+      timeString: 2023-05-19T16:19:45.000-05:00
+      commitTimeString: 2023-05-19T16:19:45.000-05:00
+      changes:
+      - path: .gitattributes
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/.gitignore
+        fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/.gitignore
+        projectPath: Assets/.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2023-05-19T16:20:44.060-05:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2023-05-19T16:20:40.127-05:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 6c7fa166af1d0e63dbb27eefd539b72454aeaaa3
+        mergeA: 
+        mergeB: 
+        authorName: Steve Sopoci
+        authorEmail: srsopoci@gmail.com
+        commitEmail: srsopoci@gmail.com
+        commitName: Steve Sopoci
+        summary: Initial commit
+        description: 
+        timeString: 2023-05-19T16:20:39.000-05:00
+        commitTimeString: 2023-05-19T16:20:39.000-05:00
+        changes:
+        - path: .DS_Store
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.DS_Store
+          projectPath: .DS_Store
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .vscode/settings.json
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.vscode/settings.json
+          projectPath: .vscode/settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .vsconfig
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.vsconfig
+          projectPath: .vsconfig
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/.DS_Store
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/.DS_Store
+          projectPath: Assets/.DS_Store
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins.meta
+          projectPath: Assets/Plugins.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub.meta
+          projectPath: Assets/Plugins/GitHub.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor.meta
+          projectPath: Assets/Plugins/GitHub/Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+          projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+          projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+          projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+          projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+          projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+          projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+          projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/System.Threading.dll
+          projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+          projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+          projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+          projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+          projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/credits.txt
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/credits.txt
+          projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/credits.txt.meta
+          projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/eula.txt
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/eula.txt
+          projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/eula.txt.meta
+          projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/libsfw.bundle
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/libsfw.so
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/libsfw.so
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/sfw.net.dll
+          projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR.meta
+          projectPath: Assets/XR.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Loaders.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders.meta
+          projectPath: Assets/XR/Loaders.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Loaders/AR Core Loader.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders/AR
+            Core Loader.asset
+          projectPath: Assets/XR/Loaders/AR Core Loader.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Loaders/AR Core Loader.asset.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders/AR
+            Core Loader.asset.meta
+          projectPath: Assets/XR/Loaders/AR Core Loader.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Loaders/AR Kit Loader.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders/AR
+            Kit Loader.asset
+          projectPath: Assets/XR/Loaders/AR Kit Loader.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Loaders/AR Kit Loader.asset.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Loaders/AR
+            Kit Loader.asset.meta
+          projectPath: Assets/XR/Loaders/AR Kit Loader.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Settings.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings.meta
+          projectPath: Assets/XR/Settings.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Settings/AR Core Settings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings/AR
+            Core Settings.asset
+          projectPath: Assets/XR/Settings/AR Core Settings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Settings/AR Core Settings.asset.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings/AR
+            Core Settings.asset.meta
+          projectPath: Assets/XR/Settings/AR Core Settings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Settings/AR Kit Settings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings/AR
+            Kit Settings.asset
+          projectPath: Assets/XR/Settings/AR Kit Settings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/Settings/AR Kit Settings.asset.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/Settings/AR
+            Kit Settings.asset.meta
+          projectPath: Assets/XR/Settings/AR Kit Settings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/XRGeneralSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/XRGeneralSettings.asset
+          projectPath: Assets/XR/XRGeneralSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/XR/XRGeneralSettings.asset.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/XR/XRGeneralSettings.asset.meta
+          projectPath: Assets/XR/XRGeneralSettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos.meta
+          projectPath: Assets/_UnityARFoundationDemos.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/.DS_Store
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/.DS_Store
+          projectPath: Assets/_UnityARFoundationDemos/.DS_Store
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Materials.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Materials.meta
+          projectPath: Assets/_UnityARFoundationDemos/Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat
+          projectPath: Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat.meta
+          projectPath: Assets/_UnityARFoundationDemos/Materials/FaceFilter.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Meshes.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Meshes.meta
+          projectPath: Assets/_UnityARFoundationDemos/Meshes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset
+          projectPath: Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset.meta
+          projectPath: Assets/_UnityARFoundationDemos/Meshes/FaceFilter_Test.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Prefabs.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs.meta
+          projectPath: Assets/_UnityARFoundationDemos/Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab
+          projectPath: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab.meta
+          projectPath: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab
+          projectPath: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab.meta
+          projectPath: Assets/_UnityARFoundationDemos/Prefabs/FaceFilter_Test.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources.meta
+          projectPath: Assets/_UnityARFoundationDemos/Resources.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources/.DS_Store
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/.DS_Store
+          projectPath: Assets/_UnityARFoundationDemos/Resources/.DS_Store
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures.meta
+          projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg
+          projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg.meta
+          projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_0.jpeg.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg
+          projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg.meta
+          projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_1.jpeg.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg
+          projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg.meta
+          projectPath: Assets/_UnityARFoundationDemos/Resources/FaceFilterTextures/_Filter_2.jpeg.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Resources/TestTextures.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Resources/TestTextures.meta
+          projectPath: Assets/_UnityARFoundationDemos/Resources/TestTextures.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scenes.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scenes.meta
+          projectPath: Assets/_UnityARFoundationDemos/Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity
+          projectPath: Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity.meta
+          projectPath: Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts.meta
+          projectPath: Assets/_UnityARFoundationDemos/Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality.meta
+          projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs
+          projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs.meta
+          projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/FaceFilterManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs
+          projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs.meta
+          projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/MonoSingleton.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs
+          projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs.meta
+          projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/SwipeManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs
+          projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs.meta
+          projectPath: Assets/_UnityARFoundationDemos/Scripts/StretchedReality/TextureManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders.meta
+          projectPath: Assets/_UnityARFoundationDemos/Shaders.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+          projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+          projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+          projectPath: Assets/_UnityARFoundationDemos/Shaders/StretechReality/FaceFilter.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages/manifest.json
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Packages/manifest.json
+          projectPath: Packages/manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages/packages-lock.json
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Packages/packages-lock.json
+          projectPath: Packages/packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/AudioManager.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/AudioManager.asset
+          projectPath: ProjectSettings/AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/ClusterInputManager.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/ClusterInputManager.asset
+          projectPath: ProjectSettings/ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/DynamicsManager.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/DynamicsManager.asset
+          projectPath: ProjectSettings/DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/EditorBuildSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/EditorBuildSettings.asset
+          projectPath: ProjectSettings/EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/EditorSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/EditorSettings.asset
+          projectPath: ProjectSettings/EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/GraphicsSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/GraphicsSettings.asset
+          projectPath: ProjectSettings/GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/InputManager.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/InputManager.asset
+          projectPath: ProjectSettings/InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/MemorySettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/MemorySettings.asset
+          projectPath: ProjectSettings/MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/NavMeshAreas.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/NavMeshAreas.asset
+          projectPath: ProjectSettings/NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/PackageManagerSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/PackageManagerSettings.asset
+          projectPath: ProjectSettings/PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+          projectPath: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/Physics2DSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/Physics2DSettings.asset
+          projectPath: ProjectSettings/Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/PresetManager.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/PresetManager.asset
+          projectPath: ProjectSettings/PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/ProjectSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/ProjectSettings.asset
+          projectPath: ProjectSettings/ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/ProjectVersion.txt
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/ProjectVersion.txt
+          projectPath: ProjectSettings/ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/QualitySettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/QualitySettings.asset
+          projectPath: ProjectSettings/QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/SceneTemplateSettings.json
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/SceneTemplateSettings.json
+          projectPath: ProjectSettings/SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/TagManager.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/TagManager.asset
+          projectPath: ProjectSettings/TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/TimeManager.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/TimeManager.asset
+          projectPath: ProjectSettings/TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/TimelineSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/TimelineSettings.asset
+          projectPath: ProjectSettings/TimelineSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/UnityConnectSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/UnityConnectSettings.asset
+          projectPath: ProjectSettings/UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/VFXManager.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/VFXManager.asset
+          projectPath: ProjectSettings/VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/VersionControlSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/VersionControlSettings.asset
+          projectPath: ProjectSettings/VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/XRPackageSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/XRPackageSettings.asset
+          projectPath: ProjectSettings/XRPackageSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/XRSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/XRSettings.asset
+          projectPath: ProjectSettings/XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/boot.config
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/ProjectSettings/boot.config
+          projectPath: ProjectSettings/boot.config
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/EditorUserSettings.asset
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/EditorUserSettings.asset
+          projectPath: UserSettings/EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Search.index
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Search.index
+          projectPath: UserSettings/Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Search.settings
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/UserSettings/Search.settings
+          projectPath: UserSettings/Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 9c1e724ecc1cb01a548e0ce5d001794eedfd1a47
+        mergeA: 
+        mergeB: 
+        authorName: Steve Sopoci
+        authorEmail: srsopoci@gmail.com
+        commitEmail: srsopoci@gmail.com
+        commitName: Steve Sopoci
+        summary: Initial commit
+        description: 
+        timeString: 2023-05-19T16:19:45.000-05:00
+        commitTimeString: 2023-05-19T16:19:45.000-05:00
+        changes:
+        - path: .gitattributes
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/.gitignore
+          fullPath: /Users/stevesopoci/Code/stevesopoci/UnityARFoundationDemos/Assets/.gitignore
+          projectPath: Assets/.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: /usr/local/bin/git
+      gitLfsPath: /usr/local/bin/git-lfs
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 1
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2023-05-19T16:20:44.051-05:00
+      cacheType: 1
+    metricsEnabled: 1
+    newRepositoryRemoteUrl: https://github.com/stevesopoci/unity-ar-foundation-demos.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/stevesopoci/unity-ar-foundation-demos.git
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: Steve Sopoci
+      gitEmail: srsopoci@gmail.com
+      newGitName: Steve Sopoci
+      newGitEmail: srsopoci@gmail.com
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 2023-05-19T16:19:32.003-05:00
+        cacheType: 8
+    webTimeout: 3000
+    gitTimeout: 5000
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 1 Jan 0001, 00:00
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2023-05-19T16:20:44.051-05:00
+      cacheType: 1
+    lastLocksChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2023-05-19T16:20:40.082-05:00
+      cacheType: 6
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: stevesopoci
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/stevesopoci/unity-ar-foundation-demos.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 0
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/stevesopoci/unity-ar-foundation-demos.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2023-05-19T16:23:34.935-05:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2023-05-19T16:20:40.127-05:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2023-05-22T12:12:42.573-05:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
+  connections: []
+  primaryConnectionUsername: stevesopoci
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -423,7 +3045,7 @@ MonoBehaviour:
     x: 0
     y: 83
     width: 357
-    height: 500
+    height: 498
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -431,9 +3053,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: b6230000
       m_LastClickedID: 0
-      m_ExpandedIDs: daccffffaccdffff40f8ffff80f8ffffeef9ffff
+      m_ExpandedIDs: 32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -457,7 +3079,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -762,7 +3384,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -785,7 +3407,7 @@ MonoBehaviour:
     x: 358
     y: 83
     width: 1106
-    height: 500
+    height: 498
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -821,7 +3443,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -833,28 +3455,28 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1106
-      height: 479
-    m_Scale: {x: 0.19747235, y: 0.19747235}
-    m_Translation: {x: 553, y: 239.5}
+      height: 477
+    m_Scale: {x: 0.18838863, y: 0.18838863}
+    m_Translation: {x: 553, y: 238.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -2800.392
-      y: -1212.828
-      width: 5600.784
-      height: 2425.656
+      x: -2935.4214
+      y: -1266
+      width: 5870.843
+      height: 2532
     m_MinimalGUI: 1
-  m_defaultScale: 0.19747235
-  m_LastWindowPixelSize: {x: 1106, y: 500}
+  m_defaultScale: 0.18838863
+  m_LastWindowPixelSize: {x: 1106, y: 498}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000100000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -875,9 +3497,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 604
+    y: 602
     width: 1465
-    height: 343
+    height: 342
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -908,9 +3530,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4e5e0000
-    m_LastClickedID: 24142
-    m_ExpandedIDs: 000000004e5e000000ca9a3b
+    m_SelectedIDs: 045f0000
+    m_LastClickedID: 24324
+    m_ExpandedIDs: 00000000045f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -926,7 +3548,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -938,7 +3560,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004e5e0000505e000000ca9a3b
+    m_ExpandedIDs: 00000000045f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -982,7 +3604,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -994,7 +3616,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &20
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1015,14 +3637,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 604
+    y: 602
     width: 1465
-    height: 343
+    height: 342
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &21
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1045,7 +3667,7 @@ MonoBehaviour:
     x: 1466
     y: 83
     width: 453
-    height: 864
+    height: 861
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
