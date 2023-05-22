@@ -1,6 +1,6 @@
 # unity-ar-foundation-demos
 
-`UnityARFoundationDemos` is a collection of **AR Foundation** plane and face tracking demos developed in **Unity** for learning purposes. 
+`UnityARFoundationDemos` is a collection of **AR Foundation** plane and face tracking demos developed in **Unity** for intended learning purposes. 
 
 <h2> Setup </h2>
 
