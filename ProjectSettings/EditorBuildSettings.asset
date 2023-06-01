@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_UnityARFoundationDemos/Scenes/PlaneTracking.unity
+    guid: a474d5dd175cd2d47a1d16d09bf17a56
+  - enabled: 0
     path: Assets/_UnityARFoundationDemos/Scenes/FaceTracking.unity
     guid: affea69ae6534491099f7ef489fd94eb
   m_configObjects:
